@@ -23,9 +23,10 @@
  */
 
 /**
-*/
+
 App::uses('CakePdf', 'CakePdf.Pdf');
 CakePlugin::load('CakePdf');
+*/
 
 // Setup a 'default' cache configuration for use in the application.
 Cache::config('default', array('engine' => 'File'));
@@ -73,7 +74,7 @@ Cache::config('default', array('engine' => 'File'));
  * CakePlugin::load('DebugKit'); // Loads a single plugin named DebugKit
  */
 //CakePlugin::load('DebugKit');
-CakePlugin::loadAll(); // Loads all plugins at once
+//CakePlugin::loadAll(); // Loads all plugins at once
 /**
  * To prefer app translation over plugin translation, you can set
  *
