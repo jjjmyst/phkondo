@@ -22,6 +22,10 @@
  * @license       http://www.opensource.org/licenses/mit-license.php MIT License
  */
 
+/**
+*/
+App::uses('CakePdf', 'CakePdf.Pdf');
+
 // Setup a 'default' cache configuration for use in the application.
 Cache::config('default', array('engine' => 'File'));
 
@@ -58,9 +62,6 @@ Cache::config('default', array('engine' => 'File'));
  * Inflector::rules('plural', array('rules' => array(), 'irregular' => array(), 'uninflected' => array()));
  */
 
-/**
-*/
-App::uses('CakePdf', 'CakePdf.Pdf');
 
 /**
  * Plugins need to be loaded manually, you can either load them one by one or all of them in a single call
