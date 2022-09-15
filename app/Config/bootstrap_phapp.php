@@ -49,7 +49,7 @@ try {
  */
 CakePlugin::load('CakePdf', array('bootstrap' => true, 'routes' => false));
 Configure::write('CakePdf', array(
-    'binary' => '{your_system_path_to_wkhtmltopdf.exe}', 
+    'binary' => '/usr/local/bin/wkhtmltopdf', 
     // windows: C:\xampp7427\wkhtmltopdf\bin\wkhtmltopdf.exe
     // linux: /usr/local/bin/wkhtmltopdf
     // Requires wkhtmltopdf engine 
